@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Edgar Y. Walker'
 SITENAME = 'memoRandom'
-SITEURL = ''
+SITEURL = 'eywalker.github.io/blog'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
@@ -16,6 +16,11 @@ DEFAULT_LANG = 'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb']
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
